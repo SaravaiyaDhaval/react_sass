@@ -1,0 +1,36 @@
+
+$backColor:rgb(207, 190, 219);
+$headerBackground: rgb(60, 133, 129);
+
+body{
+    background-color: $backColor;
+    
+    div{
+        
+        header{
+            background-color: $headerBackground;
+            height: 130px;
+            padding: 20px 50px 10px 10px;
+            color: $backColor;
+            img{
+                animation: App-logo-spin infinite 20s linear;
+                height: 180px;
+            }
+            h1{
+                font-size: 1.5em;
+                letter-spacing: 17px;
+                font-family: initial;
+                color: $backColor;
+                margin-top: -135px;
+                text-align: center;
+            }
+
+        }   
+     }
+}
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
